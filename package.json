@@ -2,7 +2,7 @@
   "name": "media-stories",
   "version": "1.0.0",
   "description": "",
-  "main": "/ui/js/application.js",
+  "main": "./ui/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
