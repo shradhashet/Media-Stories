@@ -30,9 +30,9 @@
 
 
             },
-             initialize: function(models ,options) {
+             initialize: function() {
                
-              this.offset= options.offset;
+             
              },
             url: function(){
                 return 'https://rio.quintype.io/api/v1/stories?limit=20'

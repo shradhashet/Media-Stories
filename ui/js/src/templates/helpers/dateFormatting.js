@@ -5,7 +5,7 @@ define(['moment'], function(moment) {
             return dateFromNow;
         }
                            
-    },
+    }
 
     Handlebars.registerHelper('dateFormatting', dateFormatting);
 });
