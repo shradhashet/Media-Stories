@@ -1,6 +1,6 @@
 # Media-Stories
 
-Technologies used
+### Technologies used
 
 Backbone JS
 ___________
@@ -17,7 +17,7 @@ Handlebar js
 _____________
 Handlebar provides built in helpers and allows developers to write custom helper based on the login require. 
  **Custom helpers created in handlebar js is reusable the in the application.
- **Underscore template doesn’t have support for the model attributes with hyphen (-)
+ **Underscore template doesnâ€™t have support for the model attributes with hyphen (-)
    For example: author-name;
    If the attribute author-name is passed to underscore template then it throws error as hyphen is consider 
    as minus operator while template compilation.
@@ -47,25 +47,25 @@ variables, mixins, functions and many other techniques that allow you to make CS
 --package.json
 +--ui
 +-- js
-¦   +--images
-¦   +--libs
-¦          +--bootstrap
-¦          +--jquery
-¦          +--require
-¦          +--backbone
-¦          +--backbone.marionette
-¦          +--handlebars
-¦          +--hbs
-¦          +--moment
-¦          +--underscore
-¦   +--src
-¦         +--controllers
-¦         +--models
-¦         +--router
-¦         +--templates
-¦         +--views
-¦   +--application.js
-¦   +--main.js
+Â¦   +--images
+Â¦   +--libs
+Â¦          +--bootstrap
+Â¦          +--jquery
+Â¦          +--require
+Â¦          +--backbone
+Â¦          +--backbone.marionette
+Â¦          +--handlebars
+Â¦          +--hbs
+Â¦          +--moment
+Â¦          +--underscore
+Â¦   +--src
+Â¦         +--controllers
+Â¦         +--models
+Â¦         +--router
+Â¦         +--templates
+Â¦         +--views
+Â¦   +--application.js
+Â¦   +--main.js
 +-- css
 +-- index.html
 
